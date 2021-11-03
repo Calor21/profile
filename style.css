@@ -3,6 +3,7 @@
 
 body {
     background-color: #f7f9fc;
+    background-image: url("https://aquilacompany.com.br/wp-content/uploads/2021/03/conheca-a-ilha-da-madeira.jpg");
   }
 
 h1 {
@@ -17,8 +18,14 @@ h2 {
 
 p {
   font-family: 'Open Sans', sans-serif;
+  font-size:larger;
   color: #575f7d;
   margin-bottom: 20px;
+}
+
+.transparent {
+  background:#7f7f7f;
+  background:rgba(255,255,255,0.8);
 }
 
 .btn-blue {
@@ -64,11 +71,11 @@ div {
 .social-icon {
   font-size: 30px;
   margin: 0 4px;
-  color: rgb(220, 220, 220);
+  color: #575f7d;
 }
 
 .social-icon:hover {
-  color:#575f7d;
+  color:#3c53a7;
 }
 
 /* responsiveness */
