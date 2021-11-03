@@ -1,0 +1,93 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+body {
+    background-color: #f7f9fc;
+  }
+
+h1 {
+  color: #575f7d;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins';
+  color: #575f7d;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #575f7d;
+  margin-bottom: 20px;
+}
+
+.btn-blue {
+  text-decoration: none;
+  background-color: #575f7d;
+  color: rgb(236, 215, 191);
+  padding: 8px 10px;
+  border-radius:10px;
+  border: 3px solid;
+}
+
+.btn-blue:hover {
+  background-color: white;
+  color: #da7210;
+}
+
+div {
+  background: white;
+  width: 650px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 24px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+  border-radius: 5px;
+
+}
+
+.img-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.social-icon {
+  font-size: 30px;
+  margin: 0 4px;
+  color: rgb(220, 220, 220);
+}
+
+.social-icon:hover {
+  color:#575f7d;
+}
+
+/* responsiveness */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
